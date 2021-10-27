@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'Flutter'
+  s.name                  = 'FlutterName'
   s.version               = '2.2.0' # 2.2.0
   s.summary               = 'Flutter Engine Framework'
   s.description           = <<-DESC
@@ -41,5 +41,5 @@ LICENSE
   s.source                = { :http => 'https://storage.flutter-io.cn/flutter_infra_release/flutter/a9d88a4d182bdae23e3a4989abfb7ea25954aad1/ios-release/artifacts.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '8.0'
-  s.vendored_frameworks   = 'Flutter.xcframework'
+  s.vendored_frameworks   = '*.xcframework'
 end
